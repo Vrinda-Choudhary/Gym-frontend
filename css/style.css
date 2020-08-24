@@ -171,7 +171,9 @@ margin: 0px 43px;
 #client-section{
     position: relative;
     height: 344px;
+    z-index:-1;
 }
+
 #client-section::before{
     content:"";
     position: absolute;
@@ -191,6 +193,7 @@ margin: 0px 43px;
 }
 .client-item{
     padding:50px;
+    z-index:-1;
 }
 
 
@@ -210,6 +213,9 @@ margin: 0px 43px;
 }
 
 /*Form*/
+#contact{
+    z-index: -1;
+}
 #contact-box{
     display: flex;
     color:white;
